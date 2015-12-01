@@ -1,0 +1,5 @@
+{description, "An eunit test suite for a single module"}.
+{variables, [
+    {name, "mylib", "Name of the Erlang module"}
+]}.
+{template, "eunit.erl", "test/{{name}}_tests.erl"}.
