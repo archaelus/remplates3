@@ -1,2 +1,2 @@
 # remplates3
-Rebar3 Templates
+Templates for Rebar3 projects.
