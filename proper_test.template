@@ -1,0 +1,5 @@
+{description, "An proper test suite for a single module"}.
+{variables, [
+    {name, "mylib", "Name of the Erlang module"}
+]}.
+{template, "proper.erl", "test/{{name}}_props.erl"}.
