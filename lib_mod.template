@@ -1,0 +1,5 @@
+{description, "A single Erlang library module skeleton"}.
+{variables, [
+    {name, "mylib", "Name of the Erlang module"}
+]}.
+{template, "lib_mod.erl", "src/{{name}}.erl"}.
